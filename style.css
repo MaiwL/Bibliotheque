@@ -1,0 +1,13 @@
+.perso{
+  
+    margin:0 !important;
+    padding: 0;
+    box-sizing: border-box !important;
+  }
+.couleur-bordure{
+    border-color: #C46642 !important;
+}
+body .header .nav .div :hover{
+    border-bottom: black !important;
+    border-bottom: 5px;
+}

@@ -7,7 +7,3 @@
 .couleur-bordure{
     border-color: #C46642 !important;
 }
-body .header .nav .div :hover{
-    border-bottom: black !important;
-    border-bottom: 5px;
-}

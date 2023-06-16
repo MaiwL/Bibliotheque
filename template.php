@@ -50,8 +50,7 @@
     <?= $content ?>
  
     <footer >
-            <div  class=" couleur-bordure container border-top border-2">
-            </div>
+            <div  class=" couleur-bordure container border-top border-2 mt-5"></div>
             <div class="container d-flex justify-content-center p-5">
                <a href="#">Mon compte </a><span class="ps-2 pe-2">|</span>
                <a href="#">Mentions légales</a><span class="ps-2 pe-2"> | </span>

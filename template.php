@@ -7,6 +7,7 @@
     <title>Bibliothèque</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="perso" style="font-family:'Montserrat Alternates', sans-serif; ">
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color:#E8C5B4 ;">
@@ -23,12 +24,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="nouveaute.php" style="color:#CF756C;">Nouveautés</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="horaire.php" style="color:#CF756C;">Horaires et informations</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#CF756C;">
                                 Catégories
                             </a>
                             <ul class="dropdown-menu bg-color-white" aria-labelledby="navbarDropdownMenuLink" >
-                                <li><a class="dropdown-item" href="#" style="color:#CF756C;">Horreur</a></li>
+                                <li><a class="dropdown-item" href="ajout.php" style="color:#CF756C;">Horreur</a></li>
                                 <li><a class="dropdown-item" href="#" style="color:#CF756C;">Fiction</a></li>
                                 <li><a class="dropdown-item" href="#" style="color:#CF756C;">Romans</a></li>
                                 <li><a class="dropdown-item" href="#" style="color:#CF756C;">Poésie</a></li>
@@ -56,15 +60,19 @@
                <a href="#">Mentions légales</a><span class="ps-2 pe-2"> | </span>
                <a href="#">Contact</a>
             </div>
-            <div class="row" style="background-color : #E8C5B4;">
+            <div class="row m-0" style="background-color : #E8C5B4;">
                 <div class="d-flex align-items-center justify-content-center">
                     <p class="text-center p-4" style="color:#CF756C;">Développeur : Jayson Brement | Maïwenn Lemaire</p>
-                    <a href="#"><img src="./Images/Fleche-haut.png" alt="" style="width: 50px; height: 30px;" ></a>
+                    <a href="#"><img src="./Images/to_top.png" alt=""  ></a>
                 </div>
             </div>
             
-    </footer>
+    </footer>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+<script>var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})</script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
 </body>
 </html>

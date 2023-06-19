@@ -24,7 +24,7 @@
         <img src="./Images/Enfants.jpg" class="card-img-top rounded-0" alt="PC">
         <div class="card-body">
           <p class="card-text">Venez découvrir nos différents coups de coeur !</p>
-          <a href="#" class="btn" style=" color:#E8C5B4;">Coups de coeur</a>
+          <a href="coupsdecoeur.php" class="btn" style=" color:#E8C5B4;">Coups de coeur</a>
         </div>
       </div>
       <div class=" px-0 mb-5" style="width: 18rem;">

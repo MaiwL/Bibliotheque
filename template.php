@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="perso" style="font-family:'Montserrat Alternates', sans-serif; ">
+<body class="perso"style="font-family: 'Roboto', sans-serif;" >
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color:#E8C5B4 ;">
             <div class="container-fluid">
@@ -32,8 +32,8 @@
                                 Catégories
                             </a>
                             <ul class="dropdown-menu bg-color-white" aria-labelledby="navbarDropdownMenuLink" >
-                                <li><a class="dropdown-item" href="ajout.php" style="color:#CF756C;">Horreur</a></li>
-                                <li><a class="dropdown-item" href="#" style="color:#CF756C;">Fiction</a></li>
+                                <li><a class="dropdown-item" href="ajout.php" style="color:#CF756C;">Ajout de livre</a></li>
+                                <li><a class="dropdown-item" href="admin.php" style="color:#CF756C;">Admin</a></li>
                                 <li><a class="dropdown-item" href="#" style="color:#CF756C;">Romans</a></li>
                                 <li><a class="dropdown-item" href="#" style="color:#CF756C;">Poésie</a></li>
                             </ul>
@@ -44,7 +44,7 @@
             <form class="d-flex">
                     <input class="form-control me-2" type="search" aria-label="Search">
                     <button class="btn" style="border-color : #CF756C; color : #CF756C; "type="submit">Recherche</button>
-                    <a href="connexion.php"><img src="./Images/R.png" style="width:30px; height:30px;" class="ms-2 mt-1" alt=""></a>
+                    <a href="connexion.php"><img src="./Images/Compte.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
                     
             </form>
         </nav>

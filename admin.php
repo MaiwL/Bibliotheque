@@ -5,13 +5,30 @@
 <div class="container justify-content-center">
     <div class="container row" style="margin-top:100px;">
         <div class="col d-flex justify-content-center ">
-            <a href="#"><img src="./Images/AjoutLivre.png" style="width:90px; height:90px;" alt=""></a>
+            <a href="#"><img src="./Images/AjoutLivre.png" style="width:50px; height:50px;" alt=""></a>
         </div>
         <div class="col d-flex justify-content-center">
-            <a href="#"><img src="./Images/SupprimerLivre.png" style="width:90px; height:90px;" alt=""></a>
+            <a href="#"><img src="./Images/SupprimerLivre.png" style="width:50px; height:50px;" alt=""></a>
         </div>
         <div class="col d-flex justify-content-center">
-            <a href="#"><img src="./Images/ModifierLivre.png" style="width:90px; height:90px;" alt=""></a>
+            <a href="#"><img src="./Images/ModifierLivre.png" style="width:50px; height:50px;" alt=""></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="row container">
+        <img src="" alt="">
+        <p>Titre : Jean | Auteur : Bernard Weber | Pages : 350 | Parution : 2010 </p>
+    </div>
+    <div class="container row">
+    <div class="col d-flex justify-content-center ">
+            <a href="#"><img src="./Images/AjoutLivre.png" style="width:30px; height:30px;" alt=""></a>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <a href="#"><img src="./Images/SupprimerLivre.png" style="width:30px; height:30px;" alt=""></a>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <a href="#"><img src="./Images/ModifierLivre.png" style="width:30px; height:30px;" alt=""></a>
         </div>
     </div>
 </div>

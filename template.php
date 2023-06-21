@@ -44,7 +44,7 @@
             <form class="d-flex">
                     <input class="form-control me-2" type="search" aria-label="Search">
                     <button class="btn" style="border-color : #CF756C; color : #CF756C; "type="submit">Recherche</button>
-                    <a href="connexion.php"><img src="./Images/Compte.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
+                    <a href="comptes.php"><img src="./Images/Compte.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
                     
             </form>
         </nav>

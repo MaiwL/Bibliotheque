@@ -26,7 +26,7 @@
         <img src="./Images/LaMarieePortaitDesBottesJaunes-KP.jpg" style="width:80px; height:90px;" alt="">
     </div>
     <div class="col-5 mt-3">
-        <p>Titre : La mariée portait des bottes jaunes | Auteur : Katherine Pancol | Pages : 752 | Parution : 12/04/2023</p>
+        <p>Titre : La mariée portait des bottes jaunes | Auteur : Katherine Pancol | Pages : 852 | Parution : 12/04/2023</p>
     </div>
    
 </div>

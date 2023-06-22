@@ -2,7 +2,7 @@
 <?php require_once '../model/Rayons.class.php' ?>
 <h1 class="d-flex justify-content-center " style="font-size: 80px; margin-top:90px; margin-bottom: 90px; color: #CF756C; font-family: 'Playfair Display', serif;">Ajouter un livre</h1>
 
-<form action="../controller/controllerLivres.php" class="container w-25 mt-5" method="POST" enctype="multipart/form-data">
+<form action="../controller/controllerAjouterLivres.php" class="container w-25 mt-5" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
         <label for="nom" class="form-label">Titre :</label>
         <input type="text" class="form-control" name="Titre">

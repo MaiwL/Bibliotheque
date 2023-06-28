@@ -1,4 +1,4 @@
-<?php require_once '../model/BDDlink/connexion.class.php';  
+<?php require_once 'BDDlink/connexion.class.php';  
 class LivresManager extends Connexion{
     protected $Titre;
     protected $imgpath;
@@ -112,5 +112,7 @@ class LivresManager extends Connexion{
         }
         //Insertion de la correspondance
         
+        
 }
+
 }

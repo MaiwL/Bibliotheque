@@ -1,5 +1,5 @@
 <?php
-require_once '../model/BDDlink/connexion.class.php';
+require_once 'BDDlink/connexion.class.php';
 class EnsembleLivres extends Connexion {
     protected  $idLivre;
     protected  $Titre;
@@ -133,27 +133,5 @@ class EnsembleLivres extends Connexion {
     //Récupération de tout les objet instancié avec la static ArrayToObjectEnsembleLivres() puis création d'un format d'affichage pour la page nouveauté en ne gardant que les 5 dernier objet du tableau .
     }
 
-    public static function affichageLivre()
-    {
-
-        $Livres = self::ArrayToObjectEnsembleLivres();
-        foreach ($Livres as $L) {
-            echo '<div class="row mt-5">';
-            echo '<div class="form-check col-2 mt-3 d-flex justify-content-end">';
-            echo '<input class="form-check-input me-2" type="checkbox" id="checkboxSelection" value="" name="checkbox">';
-            echo '</div>';
-            echo '<div class="col-1 d-flex justify-content-center ms-4">';
-            echo '<img src="' . $L->getImgpath() . '" alt="Book Cover" style="width:80px; height:110px;">';
-            echo '</div>';
-            echo '<div class=" col mt-5">';
-            echo $L->getTitre(). " | ";
-            echo $L->getNomAuteur() . ' ' . $L->getPrenomAuteur() . " | ";
-            echo $L->getNomRayon();
-            echo'</div>';
-            echo'</div>';
-            
-        }
     }
-}
-
 ?>

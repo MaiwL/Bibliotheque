@@ -28,9 +28,9 @@
       // /?=.*? Vérification de l'expression régulière
       $pattern = "/(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}/";
       if (preg_match($pattern, $_POST['MDP'])) {
-        echo "Parfait";
+        echo "Parfait\n";
       } else {
-        echo "\nInvalide";
+        echo "\nInvalide\n";
       }
     }
 
@@ -42,7 +42,6 @@
 
 
 </div>
-
 
 
 

@@ -12,20 +12,20 @@
     <header>
         <nav class="navbar navbar-expand-lg" style="background-color:#E8C5B4 ;">
             <div class="container-fluid">
-                <div><a class="navbar-brand" style="color: #CF756C;">Books</a></div>
+                <div><a class="navbar-brand"><img src="./view/Images/logo.png" alt=""></a></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active"  href="index.php" style="color:#CF756C;">Accueil</a>
+                            <a class="nav-link active"  href="/" style="color:#CF756C;">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nouveaute.php" style="color:#CF756C;">Nouveautés</a>
+                            <a class="nav-link" href="/nouveaute" style="color:#CF756C;">Nouveautés</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="horaire.php" style="color:#CF756C;">Horaires et informations</a>
+                            <a class="nav-link" href="/horaire" style="color:#CF756C;">Horaires et informations</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#CF756C;">
@@ -34,8 +34,8 @@
                             <ul class="dropdown-menu bg-color-white" aria-labelledby="navbarDropdownMenuLink" >
                                 <li><a class="dropdown-item" href="ajout.php" style="color:#CF756C;">Ajout de livre</a></li>
                                 <li><a class="dropdown-item" href="admin.php" style="color:#CF756C;">Admin</a></li>
-                                <li><a class="dropdown-item" href="ajoutCategories.php" style="color:#CF756C;">Ajout Catégories</a></li>
-                                <li><a class="dropdown-item" href="modifier.php" style="color:#CF756C;">Modifier</a></li>
+                                <li><a class="dropdown-item" href="#" style="color:#CF756C;">Romans</a></li>
+                                <li><a class="dropdown-item" href="#" style="color:#CF756C;">Poésie</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -43,8 +43,8 @@
             </div>
             <form class="d-flex">
                     <input class="form-control me-2" type="search" aria-label="Search">
-                    <button class="btn" style="border-color : #CF756C; color : #CF756C; "type="submit">Recherche</button>
-                    <a href="comptes.php"><img src="./Images/Compte.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
+                    <button id="rechecher"class="btn" style="border-color : #CF756C; color : #CF756C; "type="submit">Recherche</button>
+                    <a href="comptes.php"><img src="./view/Images/R.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
                     
             </form>
         </nav>
@@ -63,7 +63,7 @@
             <div class="row m-0" style="background-color : #E8C5B4;">
                 <div class="d-flex align-items-center justify-content-center">
                     <p class="text-center p-4" style="color:#CF756C;">Développeur : Jayson Brement | Maïwenn Lemaire</p>
-                    <a href="#"><img src="./Images/to_top.png" alt=""  ></a>
+                    <a href="#"><img src="./Images/to_top.png" alt=""></a>
                 </div>
             </div>
             
@@ -74,6 +74,7 @@
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })</script>
+<script src="./javascript/script.js"></script>
 
 </body>
 </html>

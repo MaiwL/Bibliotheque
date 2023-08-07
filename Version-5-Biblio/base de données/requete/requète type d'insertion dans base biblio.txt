@@ -1,0 +1,36 @@
+
+
+table associative :
+-correspond (auteur<->livre)[idAuteur,idLivre]
+-detient(exemplaire<->bibliotheque)[idExemplaire,idBibliotheque]
+-emprunter(adhérent<->exemplaire)[idAdherent,idExemplaire]
+-rechercher(livre<->motcles)[idLivre,idMotcles]
+
+table :
+-auteur [idAuteur,NomAuteur,PrenomAuteur]
+-livre [idLivre,Titre,idRayon]
+-exemplaire [idExemplaire,idLivre]
+-bibliotheque [idBibliotheque]
+-adherent[idAdherent,nomAdherents,PrenomAdherents]
+-motcles[idMotcles,Motcles]
+-rayon[idRayon,NomRayon]
+
+noeud :
+livre ->(>exemplaire,>>Auteur,>>motcles,>rayon)
+exemplaire ->(>>bibliotheque,>livre,>>adherent)
+
+
+
+
+
+
+légende :-
+[>]Lien directe
+[>>]Lien indirecte
+Noeud :Table ayant plus de 2 liens.
+
+Lorsqu'on ajoute un livre:
+il arrive dans un rayon, ce rayon aura été créé au préalable.
+On ajoute ensuite un auteur puis on associe les deux.
+on ajoute ensuite un mot clé ou pas, et si mot clé il y a on associe les deux.
+

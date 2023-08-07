@@ -1,28 +1,27 @@
 <?php ob_start() ?>
-
-<h1 class="d-flex justify-content-center " style="font-size: 80px; margin-top:90px; margin-bottom: 20px; color: #CF756C; font-family: 'Playfair Display', serif;">Modifier un livre</h1>
+<h1 class="d-flex justify-content-center " style="font-size: 80px; margin-top:90px; margin-bottom: 90px; color: #CF756C; font-family: 'Playfair Display', serif;">Ajouter un livre</h1>
 
 <form action="" class="container w-25 mt-5" method="POST">
-<form action="/control?action=ajoutLivre" class="container w-25 mt-5" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
         <label for="nom" class="form-label">Titre :</label>
-        <input type="text" class="form-control" name="Titre" placeholder="vfzivbfr" required>
+        <input type="text" class="form-control" name="name">
     </div>
     <div class="mb-3">
         <label for="nom" class="form-label">Nom :</label>
-        <input type="text" class="form-control" name="NomAuteur" required>
+        <input type="text" class="form-control" name="name">
     </div>
     <div class="mb-3">
         <label for="nom" class="form-label">Prénom :</label>
-        <input type="text" class="form-control" name="PrenomAuteur" required>
+        <input type="text" class="form-control" name="name">
     </div>
     <label for="nom" class="form-label">Catégories :</label>
-    <select class="form-select form-select-md" aria-label=".form-select-sm example" name="NomRayon" required>
-    <?php Rayons::affichageRayonsMenu(); ?>
+    <select class="form-select form-select-md" aria-label=".form-select-sm example">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
     </select>
     <div class="mt-3">
-        <label for="file">Fichier</label>
-        <input class="form-control form-control-md" type="file" name="file" required>
+        <input class="form-control form-control-md" type="file" name="fileImg">
     </div>
 
 
@@ -32,7 +31,6 @@
     </div>
 </form>
 
-</form>
 
 <?php
 $content = ob_get_clean();

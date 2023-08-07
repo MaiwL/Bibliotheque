@@ -1,0 +1,6 @@
+Projet complet
+
+*MCD -> Base de données
+     -> Script
+*Maquette
+*PHP-POO-PDO

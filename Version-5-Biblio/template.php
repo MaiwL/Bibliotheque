@@ -34,8 +34,8 @@
                             <ul class="dropdown-menu bg-color-white" aria-labelledby="navbarDropdownMenuLink" >
                                 <li><a class="dropdown-item" href="ajout.php" style="color:#CF756C;">Ajout de livre</a></li>
                                 <li><a class="dropdown-item" href="admin.php" style="color:#CF756C;">Admin</a></li>
-                                <li><a class="dropdown-item" href="ajoutCategories.php" style="color:#CF756C;">Ajout Catégories</a></li>
-                                <li><a class="dropdown-item" href="modifier.php" style="color:#CF756C;">Modifier</a></li>
+                                <li><a class="dropdown-item" href="#" style="color:#CF756C;">Romans</a></li>
+                                <li><a class="dropdown-item" href="#" style="color:#CF756C;">Poésie</a></li>
                             </ul>
                         </li>
                     </ul>

@@ -1,12 +1,11 @@
 <?php ob_start() ?>
+<?php require_once 'model/RayonsManager.class.php' ?>
+<h1 class="d-flex justify-content-center " style="font-size: 80px; margin-top:90px; margin-bottom: 90px; color: #CF756C; font-family: 'Playfair Display', serif;">Ajouter un livre</h1>
 
-<h1 class="d-flex justify-content-center " style="font-size: 80px; margin-top:90px; margin-bottom: 20px; color: #CF756C; font-family: 'Playfair Display', serif;">Modifier un livre</h1>
-
-<form action="" class="container w-25 mt-5" method="POST">
 <form action="/control?action=ajoutLivre" class="container w-25 mt-5" method="POST" enctype="multipart/form-data">
     <div class="mb-3">
         <label for="nom" class="form-label">Titre :</label>
-        <input type="text" class="form-control" name="Titre" placeholder="vfzivbfr" required>
+        <input type="text" class="form-control" name="Titre" required>
     </div>
     <div class="mb-3">
         <label for="nom" class="form-label">Nom :</label>
@@ -15,6 +14,10 @@
     <div class="mb-3">
         <label for="nom" class="form-label">Prénom :</label>
         <input type="text" class="form-control" name="PrenomAuteur" required>
+    </div>
+    <div class="mb-3">
+        <label for="nom" class="form-label">Résumé :</label>
+        <input type="text" class="form-control" name="LivreResume" required>
     </div>
     <label for="nom" class="form-label">Catégories :</label>
     <select class="form-select form-select-md" aria-label=".form-select-sm example" name="NomRayon" required>
@@ -32,7 +35,6 @@
     </div>
 </form>
 
-</form>
 
 <?php
 $content = ob_get_clean();

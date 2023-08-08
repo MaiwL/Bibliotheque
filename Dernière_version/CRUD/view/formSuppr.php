@@ -26,12 +26,13 @@ EnsembleLivres::affichageFormSuppr();
 
     </div> -->
         <div class="container d-flex justify-content-end">
-            <input type="submit" name="formSubmit" value="Submit" />
+            <input id="btnEnregistrer" type="submit" name="formSubmit" value="Enregistrer" />
     </div>
 </form>
 
 </div>
+
 <?php
-$content = ob_get_clean();
+$content =ob_get_clean();
 require "template.php";
-?>
+?>  

@@ -7,3 +7,7 @@
 .couleur-bordure{
     border-color: #C46642 !important;
 }
+.footerLiens{
+  color: black;
+  text-decoration: none;
+}

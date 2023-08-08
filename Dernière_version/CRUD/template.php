@@ -18,16 +18,16 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item upper">
                             <a class="nav-link active"  href="/" style="color:#CF756C;">Accueil</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item upper">
                             <a class="nav-link" href="/nouveaute" style="color:#CF756C;">Nouveautés</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item upper">
                             <a class="nav-link" href="/horaire" style="color:#CF756C;">Horaires et informations</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown upper">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#CF756C;">
                                 Catégories
                             </a>
@@ -43,8 +43,8 @@
             </div>
             <form class="d-flex">
                     <input class="form-control me-2" type="search" aria-label="Search">
-                    <button id="rechecher"class="btn" style="border-color : #CF756C; color : #CF756C; "type="submit">Recherche</button>
-                    <a href="comptes.php"><img src="./view/Images/R.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
+                    <button id="rechercher" class="btn" style="border-color : #CF756C; color : #CF756C; "type="submit">Recherche</button>
+                    <a href="./view/connexion.php"><img src="./view/Images/R.png" style="width:40px; height:40px;" class="ms-2 mt-1 me-3" alt=""></a>
                     
             </form>
         </nav>
@@ -56,18 +56,20 @@
     <footer >
             <div  class=" couleur-bordure container border-top border-2 mt-5"></div>
             <div class="container d-flex justify-content-center p-5">
-               <a href="#">Mon compte </a><span class="ps-2 pe-2">|</span>
-               <a href="#">Mentions légales</a><span class="ps-2 pe-2"> | </span>
-               <a href="#">Contact</a>
+               <a href="#" class="footerLiens">Mon compte </a><span class="ps-2 pe-2">|</span>
+               <a href="#" class="footerLiens">Mentions légales</a><span class="ps-2 pe-2"> | </span>
+               <a href="#" class="footerLiens">Contact</a>
             </div>
             <div class="row m-0" style="background-color : #E8C5B4;">
                 <div class="d-flex align-items-center justify-content-center">
-                    <p class="text-center p-4" style="color:#CF756C;">Développeur : Jayson Brement | Maïwenn Lemaire</p>
+                    <p class="text-center p-4" style="color:#CF756C;">Developed by Jayson Brement | Maïwenn Lemaire</p>
                     <a href="#"><img src="./Images/to_top.png" alt=""></a>
                 </div>
             </div>
             
     </footer>   
+
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 <!-- Script pour que le popover fonctionne -->
 <script>var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
@@ -75,6 +77,7 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
   return new bootstrap.Popover(popoverTriggerEl)
 })</script>
 <script src="./javascript/script.js"></script>
+
 
 </body>
 </html>

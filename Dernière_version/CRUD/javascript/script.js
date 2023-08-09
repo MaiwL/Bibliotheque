@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-  var liens = document.getElementsByClassName("upper");
-  var bouton = document.getElementById("rechercher");
-  var btnEnregistrer = document.getElementById("btnEnregistrer");
-  var btn = document.getElementById("green");
+  const liens = document.getElementsByClassName("upper");
+  const bouton = document.getElementById("rechercher");
+  const compte = document.getElementById("afficherCompte");
+  const infosCompte = document.getElementById("infosCompte");
 
   // Fonction pour augmenter la taille de la police quand on passe dessus - Template
   for (var i = 0; i < liens.length; i++) {
@@ -28,22 +28,20 @@ document.addEventListener("DOMContentLoaded", function () {
     bouton.style.borderColor = "#CF756C";
   });
 
-  // Fonction pour un changement de couleur quand on passe dessus - Page de suppression
+  // Fonction qui montre ce que le client à cliquer exemple : Compte, montre les informations du comptes concernant le client. - Page compteClient
 
-  btnEnregistrer.addEventListener("mouseover" ,function () {
-    btnEnregistrer.style.backgroundColor = "green";
-  })
-  btnEnregistrer.addEventListener("mouseout", function () {
-    btnEnregistrer.style.backgroundColor = "";
-  })
-
-  btn.addEventListener("mouseover" ,function () {
-    btn.style.backgroundColor = "green";
-  })
-  btn.addEventListener("mouseout", function () {
-    btn.style.backgroundColor = "";
-  })
-
+  boutonAfficherInfos.addEventListener("click", function () {
+    // Petit commentaire : Alors je t'explique exactement ce que je voulais faire xD 
+    // Je voulais qu'une fois que le client click sur le bouton "compte" les informations s'affiche en dessous, seulement pour ne 
+    // pas casser le code je ne sais pas réellement comment faire, je voulais créer une requête pour récupérer les informations et les afficher
+    // mais directement dans le js, mauvaise idées je pense est-ce que je créer une page exprès pour la récupération et après j'appelle
+    // ce fichier dans le js ? 
+   
+});
 
   
-});
+
+
+
+
+

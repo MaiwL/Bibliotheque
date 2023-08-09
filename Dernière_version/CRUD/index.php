@@ -67,7 +67,9 @@ $routeur->register('/horaire', function () {
 $routeur->register('/testAdmin', function () {
     include 'view/testadmin.php';
 });
-
+$routeur->register('/compte', function () {
+    include 'view/compteClient.php';
+});
 
 
 

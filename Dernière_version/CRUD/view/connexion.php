@@ -13,7 +13,7 @@
       <input type="password" name="MDP" placeholder="Mot de passe">
     </div>
     <div class="container d-flex justify-content-center">
-      <input type="submit" value="Se connecter" class=" mb-5" name="btn" id="green">
+      <input type="submit" value="Se connecter" class=" mb-5 green" name="btn">
     </div>
     <!-- Vérification : regardez si la variable existe avec isset -->
     <?php
@@ -49,7 +49,7 @@
 
 
 
-
+<script src="../javascript/script.js"></script>
 <?php
 $content = ob_get_clean();
 require "template.php";

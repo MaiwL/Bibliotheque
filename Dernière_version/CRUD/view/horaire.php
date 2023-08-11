@@ -62,12 +62,12 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   <div class="div d-flex justify-content-end">
-    <input type="submit" value="Envoyer">
+    <input type="submit" value="Envoyer" class="green" >
   </div>
 </div>
 </form>
 
-
+<script src="../javascript/script.js"></script>
 <?php
 $content = ob_get_clean();
 require "template.php";
